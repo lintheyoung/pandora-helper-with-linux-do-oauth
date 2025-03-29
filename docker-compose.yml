@@ -48,7 +48,7 @@ services:
       MYSQL_USERNAME: ""                              # MySQL用户名，默认root
       MYSQL_PASSWORD: ""                              # MySQL密码，默认root
     ports:
-      - "8181:8181"                                   # 如需修改端口，请修改第一个8181为你需要访问的服务器端口
+      - "2234:8181"                                   # 如需修改端口，请修改第一个8181为你需要访问的服务器端口
     restart: always
   mirror:
     image: dairoot/chatgpt-gateway:latest
